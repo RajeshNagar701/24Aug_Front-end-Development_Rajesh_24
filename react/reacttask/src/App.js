@@ -7,6 +7,7 @@ import Jsx from "./JSX/Jsx"
 import Main_blog from "./Layout/Main_blog"
 import Main_contact from "./Layout/Main_contact"
 import Main_home from "./Layout/Main_home"
+import MUI from "./MUI/MUI"
 import Module_css from "./Module_css/Module_css"
 import AMG from "./Props/Class/AMG"
 import BMS from "./Props/Function/BMS"
@@ -16,7 +17,7 @@ import Sass_css from "./Sass_css/Sass_css"
 import Class_state from "./State/Class/Class_state"
 import Func_state from "./State/function/Func_state"
 import Styled_component from "./Styled_component/Styled_component"
-
+import Tailwind from "./Tailwind/Tailwind"
 
 function App() {
   return (
@@ -52,9 +53,14 @@ function App() {
 
             // Boostrap / React-Bootstrap / Custome styled-component
             //<Simple_bootstrap/>
-            //<React_boostrap/>
-            <Styled_component/>
+            //<React_boostrap/>    // framwork 1
+            //<Styled_component/>
 
+            // Tailwind            // framwork 2
+            //<Tailwind/>         
+
+            // MUI        // framwork 3
+            <MUI/>
         }
 
         

@@ -1,0 +1,83 @@
+/* Use the variables */
+
+
+$bg: lightblue;
+$tc: darkblue;
+$fs: 18px;
+$al:center;
+
+h1{
+    color: $tc;
+    background-color: $bg;
+    font-size: $fs;
+    text-align: $al;
+}
+
+/*Nested Rules*/
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background-color: $bg;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      color: $tc;
+    }
+  }
+
+/*Nested Properties*/
+
+.nestedprop{
+    font: {
+        family: Helvetica, sans-serif;
+        size: 18px;
+        weight: bold;
+      }
+      
+      text: {
+        align: center;
+        transform: uppercase;
+        overflow: hidden;
+      }
+}
+
+
+/*@extend and Inheritance*/
+
+.button-basic  {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .red-btn{
+    @extend .button-basic;
+    background-color: red;  
+  }
+
+  .green-btn{
+    @extend .button-basic;
+    background-color: green;  
+  }
+
+  .yellow-btn{
+    @extend .button-basic;
+    background-color: yellow;  
+  }
+
+  .orange-btn{
+    @extend .button-basic;
+    background-color: orange;  
+  }
+
