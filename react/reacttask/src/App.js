@@ -7,6 +7,8 @@ import Jsx from "./JSX/Jsx"
 import Main_blog from "./Layout/Main_blog"
 import Main_contact from "./Layout/Main_contact"
 import Main_home from "./Layout/Main_home"
+import Class_Lifecycle from "./LifeCycle/Class/Class_Lifecycle"
+import Func_Lifecycle from "./LifeCycle/Func/Func_Lifecycle"
 import MUI from "./MUI/MUI"
 import Module_css from "./Module_css/Module_css"
 import AMG from "./Props/Class/AMG"
@@ -60,7 +62,13 @@ function App() {
             //<Tailwind/>         
 
             // MUI        // framwork 3
-            <MUI/>
+            //<MUI/>
+
+
+            //lifecycle
+
+            //<Class_Lifecycle/>
+            <Func_Lifecycle/>
         }
 
         
